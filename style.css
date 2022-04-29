@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.viewport{
+    width: 1280px;
+    height: 780px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container1,
+.card-container2,
+.card-container3
+{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+
+}
+
+.card-container4{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.card{
+    padding: 10px 0px 10px 0px;
+
+}
+
+.card h1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.card .name{
+    font-size: 30px;
+}
+
+.card .number{
+    font-size: 30px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+
+}
